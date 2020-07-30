@@ -13,22 +13,22 @@ function Home() {
         videoDescription="Um vídeo sobre frontend" 
         url="https://www.youtube.com/watch?v=ZY3-MFxVdEw"/>
 
-      <Carousel
+      <Carousel color={dadosiniciais.categorias[0].cor}
         category={dadosiniciais.categorias[0]} 
       />
-      <Carousel
+      <Carousel color={dadosiniciais.categorias[0].cor}
         category={dadosiniciais.categorias[1]} 
       />
-      <Carousel
+      <Carousel color={dadosiniciais.categorias[0].cor}
         category={dadosiniciais.categorias[2]} 
       />
-      <Carousel
+      <Carousel color={dadosiniciais.categorias[0].cor}
         category={dadosiniciais.categorias[3]} 
       />
-      <Carousel
+      <Carousel color={dadosiniciais.categorias[0].cor}
         category={dadosiniciais.categorias[4]} 
       />
-      <Carousel
+      <Carousel color={dadosiniciais.categorias[0].cor}
         category={dadosiniciais.categorias[5]} 
       />
       <Footer/>
